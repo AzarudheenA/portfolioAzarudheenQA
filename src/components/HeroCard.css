@@ -1,0 +1,86 @@
+.hero-card {
+  width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #10142c;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #0ff;
+}
+
+.card-header h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+.card-header h2 {
+  color: #ff0099;
+  margin-bottom: 1rem;
+}
+
+.automation-level {
+  margin-bottom: 1rem;
+}
+
+.level-bar {
+  height: 10px;
+  background: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.level-bar .fill {
+  width: 80%;
+  height: 100%;
+  background: #ff0099;
+}
+
+.card-content {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 3px solid #0ff;
+}
+
+.details .section {
+  margin-bottom: 1rem;
+}
+
+.section h3 {
+  color: #0ff;
+  margin-bottom: 0.3rem;
+}
+
+.section ul {
+  padding-left: 1rem;
+  list-style: square;
+}
+
+.stats {
+  margin-top: 1.5rem;
+}
+
+.stats .bar {
+  background: #222;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.stats .fill {
+  height: 100%;
+  background: #0ff;
+}
+
+.stats .fill.speed { width: 70%; }
+.stats .fill.accuracy { width: 90%; }
+.stats .fill.coverage { width: 85%; }
