@@ -67,6 +67,9 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
+        
+        {/* Example of '>' character as requested */}
+        <p>{"> run connect_azar()"}</p>
       </div>
     </div>
   );
