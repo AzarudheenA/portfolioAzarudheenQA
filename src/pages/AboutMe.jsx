@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="bg-gradient-to-b from-blue-100 to-white min-h-screen flex flex-col items-center justify-center py-10">
       {/* Avatar and Background */}
-      <div className="relative w-96 h-auto p-6 bg-white rounded-2xl shadow-2xl">
+      <div className="relative w-full max-w-5xl p-6 bg-white rounded-2xl shadow-2xl mx-4 sm:mx-6 md:mx-10">
         <div className="flex flex-col items-center">
           <img
             src="/assets/avatar.jpg"
@@ -17,7 +17,7 @@ const AboutMe = () => {
         </div>
 
         {/* Shelf Skills Section */}
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="flex flex-col items-center">
             <img
               src="/assets/selenium-icon.png"
