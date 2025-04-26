@@ -8,13 +8,17 @@ import Experience from './pages/Experience.jsx';
 import Certifications from './pages/Certifications.jsx';
 import Contact from './pages/Contact.jsx';
 import Download from './pages/Download.jsx';
+import AboutMe from "./pages/AboutMe";
+
+
+
 
 export default function App() {
   return (
     <Router>
       <div className="bg-gray-900 text-white min-h-screen font-sans">
         <nav className="bg-black p-4 flex justify-around shadow-md">
-          {['About', 'Skills', 'Projects', 'Experience', 'Certifications', 'Contact', 'Download'].map((page) => (
+          {['About', 'AboutMe', 'Skills', 'Projects', 'Experience', 'Certifications', 'Contact', 'Download'].map((page) => (
             <Link key={page} to={`/${page.toLowerCase()}`} className="hover:text-yellow-300">
               {page}
             </Link>
@@ -22,6 +26,7 @@ export default function App() {
         </nav>
         <Routes>
           <Route path="/about" element={<About />} />
+          <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
