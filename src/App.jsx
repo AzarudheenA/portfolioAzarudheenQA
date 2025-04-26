@@ -8,7 +8,7 @@ import Experience from './pages/Experience.jsx';
 import Certifications from './pages/Certifications.jsx';
 import Contact from './pages/Contact.jsx';
 import Download from './pages/Download.jsx';
-import AboutMe from "./pages/AboutMe";
+import AboutMe from "./pages/AboutMe.jsx";
 
 
 
